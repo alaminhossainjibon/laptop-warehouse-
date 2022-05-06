@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className='footer-style mt-5'>
+        <div className='footer-style mt-5 text-center'>
             <p className='text-light p-5'>
                 Copyright &copy; 2022 -- All right reserved by Laptop-warehouse!
             </p>
