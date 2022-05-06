@@ -1,0 +1,56 @@
+[
+    {
+        "id": "",
+        "name": "DELL LAPTOP",
+        "price": "1000",
+        "quantity": "10",
+        "supplier": "Rayhan chodhury",
+        "description": "Buy premium grade off-lease Dell products directly from Dell. Each system is rigorously tested, fully operational and supported by our US-based customer service team. Includes a limited warranty with the option to expand all assets.",
+        "img": "https://www.dellrefurbished.com/mas_assets/theme/dell_refurbished/images/homepage_box_3.png"
+    },
+    {
+        "id": "",
+        "name": "HP",
+        "price": "1200",
+        "quantity": "10",
+        "supplier": "Ebrahim khan",
+        "description": "Introducing a Head of Digital role to DfE - DfE Digital and Technology",
+        "img": "https://dfedigital.blog.gov.uk/wp-content/uploads/sites/205/2021/05/laptops-at-bench-2-620x360.jpeg"
+    },
+    {
+        "id": "",
+        "name": "ASUS",
+        "price": "1900",
+        "quantity": "10",
+        "supplier": "Shawan chodhury",
+        "description": "Asus Laptop M515DA-BQ502TS R5 -3500U/8 GB/1 Tb HDD/windows",
+        "img": "https://5.imimg.com/data5/ANDROID/Default/2020/9/WQ/XY/XZ/79079233/product-jpeg-500x500.jpg"
+    },
+    {
+        "id": "",
+        "name": "DELL LAPTOP",
+        "price": "1500",
+        "quantity": "10",
+        "supplier": "Jems",
+        "description": "Buy premium grade off-lease Dell products directly from Dell.",
+        "img": "https://image.made-in-china.com/2f0j00WHpUvBIrgzoN/Laptop-Storage-in-China-Warehouse-for-Industrial-Motherboard.jpg"
+    },
+    {
+        "id": "",
+        "name": "LENEVO",
+        "price": "1700",
+        "quantity": "10",
+        "supplier": "Qurly Q Link",
+        "description": " Global Wholesaler and Exporter of Used & Refurbished PCs and Laptops",
+        "img": "https://www.electrocw.com/wp-content/uploads/2018/09/Computer-Wholesale-Distributors-1.jpg"
+    },
+    {
+        "id": "",
+        "name": "APPLE",
+        "price": "3000",
+        "quantity": "10",
+        "supplier": "SHIMUL KHAN",
+        "description": "AC Adapters Apple Laptop Charger Adapter Extension Power Cable - China Power Cord",
+        "img": "https://image.made-in-china.com/44f3j00jNOGMkptZEgy/AC-Adapters-Apple-Laptop-Charger-Adapter-Extension-Power-Cable.jpg"
+    }
+]
