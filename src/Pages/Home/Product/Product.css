@@ -1,4 +1,4 @@
-.service {
+.product {
     border: 1px solid gray;
     border-radius: 10px;
     padding-bottom: 10px;
@@ -6,7 +6,8 @@
 }
 
 .images {
-    width: 375px;
+    width: 300px;
+    height: 300px;
     border-radius: 10px;
     margin-top: 10px;
 }
