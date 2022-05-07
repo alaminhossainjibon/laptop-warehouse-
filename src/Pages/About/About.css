@@ -7,4 +7,10 @@
 
 .about:hover {
     background-color: rgb(74, 79, 160);
+    box-shadow: 5px 5px 5px 10px rgb(25, 26, 37);
+}
+
+.img-size {
+    width: 100px;
+    border-radius: 20px;
 }
