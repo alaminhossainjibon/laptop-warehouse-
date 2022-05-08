@@ -4,7 +4,7 @@ const Services = () => {
     return (
         <div className="container">
             <h1 className="text-center text-info my-5">Our Services</h1>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="row row-cols-1 row-cols-md-3 g-4 bg-dark">
                 <div class="col">
                     <div class="card">
                         <img src="https://i.ibb.co/BnNfxpC/550-5504898-lightning-bolt-thunder-png-clipart-removebg-preview.png" alt="" />

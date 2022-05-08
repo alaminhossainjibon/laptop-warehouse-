@@ -20,7 +20,7 @@ const Header = () => {
                         <Nav>
                             <Nav.Link as={Link} to="about">About</Nav.Link>
 
-                            {/* <button className='btn btn-link text-light text-decoration-none'>sign out</button> */}
+                            <button className='btn btn-link text-light text-decoration-none'>sign out</button>
                             <Nav.Link as={Link} to="register">
                                 Register
                             </Nav.Link>
