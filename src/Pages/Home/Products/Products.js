@@ -4,7 +4,7 @@ import './Products.css'
 const Products = () => {
     const [products, setProducts] = useState([])
     useEffect(() => {
-        fetch('products.json')
+        fetch('http://localhost:5000/service')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
@@ -15,7 +15,7 @@ const Products = () => {
                 <div className='products-container'>
                     {
                         products.map(product => <Product
-                            key={product.id}
+                            key={product._id}
                             service={product}
                         ></Product>)
                     }
