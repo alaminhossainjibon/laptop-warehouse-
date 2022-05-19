@@ -8,7 +8,7 @@ const ProductDetail = () => {
     const [product, setProduct] = useState({});
     const { _id, name, img, description, price, quantity, supplier } = product;
     useEffect(() => {
-        const url = `http://localhost:5000/product/${productId}`;
+        const url = `https://blooming-earth-59051.herokuapp.com/product/${productId}`;
         fetch(url)
             .then((res) => res.json())
             .then((data) => setProduct(data));
@@ -37,7 +37,7 @@ const ProductDetail = () => {
                 const newProduct = { ...product, quantity: newQuantity };
                 setProduct(newProduct);
                 fetch(
-                    `http://localhost:5000/product/${productId}`,
+                    `https://blooming-earth-59051.herokuapp.com/product/${productId}`,
                     {
                         method: "PUT",
                         headers: {
@@ -75,7 +75,7 @@ const ProductDetail = () => {
             const newProduct = { ...product, quantity: newQuantity };
             setProduct(newProduct);
             fetch(
-                `http://localhost:5000/product/${productId}`,
+                `https://blooming-earth-59051.herokuapp.com/product/${productId}`,
                 {
                     method: "PUT",
                     headers: {
