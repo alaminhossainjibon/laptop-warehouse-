@@ -1,12 +1,9 @@
 import React from "react";
-import "./Loader.css";
-
+import loader from '../../../assets/images/loader.gif'
 const Loader = () => {
     return (
-        <div className="loader mx-auto my-4">
-            <span className="hour"></span>
-            <span className="min"></span>
-            <span className="circel"></span>
+        <div>
+            <img src={loader} alt="" />
         </div>
     );
 };

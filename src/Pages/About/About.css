@@ -1,0 +1,9 @@
+.about {
+    background-color: rgb(33, 51, 45);
+    width: 400px;
+}
+
+.img-size {
+    width: 100px;
+    border-radius: 25%;
+}

@@ -7,7 +7,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import Loader from "../../components/Shared/Loader/Loader";
 import bar from "../../components/Shared/Progress/Progress";
-import Social from "../../components/Shared/SocialSignIn/Social";
+import Social from "../../components/Shared/SocialSignIn/SocialSignIn";
 import auth from "../../firebase.init";
 
 const Register = () => {

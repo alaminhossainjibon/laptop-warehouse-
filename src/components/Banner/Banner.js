@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import bubbles from "../../assets/images/bubbles.jpg";
-import thunderly from "../../assets/images/thunderly.gif";
-import logo from "../../assets/images/bolt.gif";
+import banner3 from "../../assets/images/banner/banner3.jpg";
+import logo from "../../assets/images/logo/logo.png";
 
 const Header = () => {
     return (
@@ -10,30 +9,25 @@ const Header = () => {
             <div
                 className="hero"
                 style={{
-                    backgroundImage: `url(${bubbles})`,
+                    backgroundImage: `url(${banner3})`,
                     minHeight: "70vh",
                 }}
             >
-                <div className="hero-overlay bg-opacity-60"></div>
+                <div className="hero-overlay bg-opacity-60  text-center mx-auto"></div>
                 <div className="hero-content flex-col  lg:flex-row-reverse">
-                    <div className="lg:w-1/2 sm:w-2/3 w-full animate-wiggle">
-                        <img src={thunderly} className="rounded-2xl w-2/3 mx-auto" alt="" />
-                    </div>
-                    <div className="lg:w-1/2 sm:w-2/3 w-full animate-open px-4 my-3 ">
+                    <div className="lg:w-1/2 sm:w-2/3 w-full animate-open px-4 my-3">
                         <h1 className="md:text-5xl text-3xl text-center md:text-justify font-bold text-white font-sans tracking-widest md:italic">
-                            Nextron!
+                            Laptop Warehouse!
                             <span>
                                 <img src={logo} alt="" className="inline w-1/5" />
                             </span>
                         </h1>
                         <h3 className=" md:text-2xl text-xl  font-bold text-slate-300 font-serif">
-                            The Next Gen Warehouse.
+                            The Laptop Warehouse.
                         </h3>
                         <p className="py-3 md:py-6 mb-4 text-slate-200 md:text-lg ">
-                            Nextron is a Warehouse based on electrical products. You can add,
-                            manage, remove products here. Nextron provides customizing your
-                            products option for free. It is so popular that it's used by 9.2B
-                            Humans and 1.8B Aliens.
+                            Apple. Apple is definitely one of the luxury brands when it comes to Laptops, Smartphones, Computers and Tablets. ...
+                            HP. HP also known as Hewlett-Packard is one of the oldest electronics brands that is not as popular as it used to be.
                         </p>
 
                         <Link

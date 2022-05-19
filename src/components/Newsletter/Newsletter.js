@@ -1,7 +1,7 @@
 import React from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { toast } from "react-toastify";
-import bolt from "../../assets/images/bolt.gif";
+import bolt from "../../assets/images/logo/logo.png";
 import auth from "../../firebase.init";
 
 const Newsletter = () => {
@@ -15,7 +15,7 @@ const Newsletter = () => {
         toast.success("Ye! You will get updates!! (lies🙊)");
     };
     return (
-        <div className="flex flex-col md:flex-row justify-around items-center bg-gradient-to-t py-6 md:py-0 from-darki to-darku border-t-4 border-t-darki border-b-4 border-b-darku">
+        <div className="flex flex-col md:flex-row justify-around items-center bg-gradient-to-t py-6 md:py-0 from-darki to-darku border-t-4 border-t-darki border-b-4 border-b-darku ms-5">
             <div>
                 <h1 className="md:text-3xl text-xl text-white font-sans">
                     Subscribe to get future updates

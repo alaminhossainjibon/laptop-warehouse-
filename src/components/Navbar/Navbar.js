@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../../assets/images/bolt.gif";
+import logo from "../../assets/images/logo/logo.png";
 import CustomLink from "../Shared/CustomLink/CustomLink";
 import { useAuthState } from "react-firebase-hooks/auth";
 import auth from "../../firebase.init";
@@ -19,14 +19,20 @@ const Navbar = () => {
     };
 
     return (
-        <div className="px-4 py-2 mx-auto  md:px-20 z-10 lg:px-20 sticky top-0 bg-realBlack  border-b-2 border-gray-700 ">
+        <div className="px-4 py-2 mx-auto  md:px-20 z-10 lg:px-20 sticky top-0 bg-black  border-b-2 border-gray-700 ">
             <div className="relative flex items-center justify-between">
                 <Link to="/" className="inline-flex items-center w-1/2 md:w-1/12">
                     <img src={logo} alt="" className=" h-16 w-1/2 rounded-xl" />
-                    <span className="italic text-xl font-bold tracking-widest text-slate-100 uppercase">
-                        Nextron!
+                    <span className="italic text-xl font-bold tracking-widest text-white uppercase">
+                        Laptop Warehouse!
                     </span>
                 </Link>
+
+                <Link className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-gray-700 hover:bg-gray-600 focus:shadow-outline focus:outline-none active:scale-90" to="home">Home</Link>
+                <Link className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-gray-700 hover:bg-gray-600 focus:shadow-outline focus:outline-none active:scale-90" to="blogs">Blogs</Link>
+                <Link className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-gray-700 hover:bg-gray-600 focus:shadow-outline focus:outline-none active:scale-90" to="about">About</Link>
+
+
                 <ul className=" items-center hidden space-x-8 mr-8 lg:flex">
                     {user
                         ? userNavLinks.map((nav) => (
@@ -130,7 +136,7 @@ const Navbar = () => {
                                         <Link to="/" className="inline-flex items-center">
                                             <img src={logo} alt="" className="w-16 rounded-md" />
                                             <span className="italic ml-2 text-xl font-bold tracking-widest text-slate-100 uppercase">
-                                                Nextron!
+                                                Laptop Warehouse!
                                             </span>
                                         </Link>
                                     </div>

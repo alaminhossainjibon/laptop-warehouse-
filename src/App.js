@@ -21,7 +21,6 @@ import AddProduct from "./Pages/AddProduct/AddProduct";
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
-    // Wait for 1.5 seconds
     setTimeout(() => {
       setIsLoading(false);
     }, 1500);
@@ -30,9 +29,6 @@ function App() {
   return isLoading ? (
     <div className="w-full h-screen flex justify-center items-center flex-col">
       <Loader></Loader>
-      <h1 className="text-3xl md:text-5xl text-white tracking-widest animate-ping mt-6 font-serif">
-        LAPTOP WAREHOUSE!
-      </h1>
     </div>
   ) : (
     <div>

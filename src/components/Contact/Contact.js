@@ -39,8 +39,7 @@ const Contact = () => {
                                     GET IN TOUCH WITH US
                                 </h2>
                                 <p className="text-base text-slate-200 leading-relaxed mb-9">
-                                    Contact with us to get support. Tell us your problem, we won't
-                                    tell you the solution :D . That's our policy 💸
+                                    Please Share me your any problem ...........
                                 </p>
                                 <div className="flex mb-8 max-w-[370px] w-full">
                                     <div
@@ -70,7 +69,7 @@ const Contact = () => {
                                             Our Location
                                         </h4>
                                         <p className="text-base text-slate-300">
-                                            Officer para, Sadar, Bhola 8301. Bangladesh
+                                            Bangladesh
                                         </p>
                                     </div>
                                 </div>
@@ -86,7 +85,7 @@ const Contact = () => {
                                             Phone Number
                                         </h4>
                                         <p className="text-base text-slate-300">
-                                            (+88) 01770 999 099
+                                            (+88)1763066237
                                         </p>
                                     </div>
                                 </div>
@@ -117,7 +116,7 @@ const Contact = () => {
                                         <h4 className="font-bold text-slate-300 text-xl mb-1">
                                             Email Address
                                         </h4>
-                                        <p className="text-base text-slate-300">info@nextron.com</p>
+                                        <p className="text-base text-slate-300">info@laptop-warehouse.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -222,8 +221,8 @@ const Contact = () => {
                                             <path
                                                 fillRule="evenodd"
                                                 clipRule="evenodd"
-                                                d="M0 100C0 44.7715 0 0 0 0C55.2285 0 100 44.7715 100 100C100 100 100 100 0 100Z"
-                                                fill="#3056D3"
+                                                d="M0 100C0 44.7715 0 0 0 0C55.2282 0 100 44.7712 100 100C100 100 100 100 0 100Z"
+                                                fill="#3156D3"
                                             />
                                         </svg>
                                     </span>

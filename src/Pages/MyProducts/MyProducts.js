@@ -88,10 +88,10 @@ const MyProducts = () => {
                   mb-4
                   "
                                 >
-                                    Products in the Warehouse
+                                    the Warehouse
                                 </h2>
                                 <p className="text-base text-slate-200">
-                                    There are some of the products provided by you.
+                                    There are some of the products provided.
                                 </p>
                             </div>
                         </div>

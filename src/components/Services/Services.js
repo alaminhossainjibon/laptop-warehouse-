@@ -59,11 +59,11 @@ const Services = () => {
                   mb-4
                   "
                                 >
-                                    What We Offer
+                                    Offer
                                 </h2>
                                 <p className="text-base text-slate-200">
-                                    We offer various types of services to make our clients happy.
-                                    Here are some of them.
+                                    Happy Offer.
+
                                 </p>
                             </div>
                         </div>

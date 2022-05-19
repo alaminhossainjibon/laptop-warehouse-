@@ -29,10 +29,10 @@ const Products = () => {
                   mb-4
                   "
                                 >
-                                    Products in the Warehouse
+                                    Products Warehouse
                                 </h2>
                                 <p className="text-base text-slate-200">
-                                    There are some of the products from nextron warehouse.
+                                    The laptop warehouse.
                                 </p>
                             </div>
                         </div>

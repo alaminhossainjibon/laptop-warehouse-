@@ -15,15 +15,15 @@ const Stats = () => {
                 <div className="grid grid-cols-2 row-gap-8 gap-y-8 md:grid-cols-4">
                     <div className="text-center border-b  pb-3 mx-2 md:border-b-0 md:mx-0  md:border-r">
                         <h6 className="text-4xl font-bold lg:text-5xl xl:text-6xl text-slate-50">
-                            11B
+                            2.2B
                         </h6>
                         <p className="text-sm font-medium tracking-widest text-gray-100 uppercase lg:text-base animate-left">
-                            Users
+                            All Users
                         </p>
                     </div>
                     <div className="text-center border-b  pb-3 mx-2 md:border-b-0 md:mx-0  md:border-r">
                         <h6 className="text-4xl font-bold lg:text-5xl xl:text-6xl text-slate-50">
-                            9.2B{" "}
+                            2.2B{" "}
                         </h6>
                         <p className="text-sm font-medium tracking-widest text-gray-100 uppercase lg:text-base animate-right">
                             Humans
@@ -39,7 +39,7 @@ const Stats = () => {
                     </div>
                     <div className="text-center border-b pb-3 mx-2 md:border-b-0 md:mx-0  ">
                         <h6 className="text-4xl font-bold lg:text-5xl xl:text-6xl text-slate-50">
-                            88k
+                            50k
                         </h6>
                         <p className="text-sm font-medium tracking-widest text-gray-100 uppercase lg:text-base animate-right">
                             Sellers

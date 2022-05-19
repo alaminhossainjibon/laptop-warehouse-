@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import google from "../../../assets/images/google.png";
-import facebook from "../../../assets/images/facebook.png";
-import github from "../../../assets/images/github.png";
+import google from "../../../assets/images/social/google.png";
+import facebook from "../../../assets/images/social/Facebook.png";
+import github from "../../../assets/images/social/github.png";
 import auth from "../../../firebase.init";
 import {
     useSignInWithFacebook,
@@ -12,7 +12,7 @@ import Loader from "../Loader/Loader";
 import { toast } from "react-toastify";
 import { useLocation, useNavigate } from "react-router-dom";
 
-const Social = () => {
+const SocialSignIn = () => {
     const navigate = useNavigate();
     const location = useLocation();
     let from = location.state?.from?.pathname || "/";
@@ -90,4 +90,4 @@ const Social = () => {
     );
 };
 
-export default Social;
+export default SocialSignIn;
